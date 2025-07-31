@@ -10,5 +10,5 @@ langchainhub
 transformers
 sentence-transformers
 torch
-faiss-cpu
+FAISS
 pypdf
