@@ -122,8 +122,8 @@ def get_text(docs):
 
 def get_text_chunks(text):
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=900,
-        chunk_overlap=100,
+        chunk_size=200,
+        chunk_overlap=10,
         length_function=tiktoken_len
     )
     chunks = text_splitter.split_documents(text)
